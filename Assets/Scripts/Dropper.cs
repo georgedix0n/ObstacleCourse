@@ -23,7 +23,6 @@ public class Dropper : MonoBehaviour
         
         if(Time.time > TimeToWait)
         {   
-            Debug.Log("going thru here");
             renderer.enabled = true;
             rigidbody.useGravity = true;
             
